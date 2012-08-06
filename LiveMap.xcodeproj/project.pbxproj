@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAD7CC915CFB988006A8744 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAD7CC815CFB988006A8744 /* UIKit.framework */; };
+		DCAD7CCB15CFB988006A8744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAD7CCA15CFB988006A8744 /* Foundation.framework */; };
+		DCAD7CCD15CFB988006A8744 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAD7CCC15CFB988006A8744 /* CoreGraphics.framework */; };
+		DCAD7CCF15CFB988006A8744 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAD7CCE15CFB988006A8744 /* CoreData.framework */; };
+		DCAD7CD515CFB988006A8744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCAD7CD315CFB988006A8744 /* InfoPlist.strings */; };
+		DCAD7CD715CFB988006A8744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD7CD615CFB988006A8744 /* main.m */; };
+		DCAD7CDB15CFB989006A8744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD7CDA15CFB989006A8744 /* AppDelegate.m */; };
+		DCAD7CDE15CFB989006A8744 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAD7CDC15CFB989006A8744 /* MainStoryboard_iPhone.storyboard */; };
+		DCAD7CE115CFB989006A8744 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAD7CDF15CFB989006A8744 /* MainStoryboard_iPad.storyboard */; };
+		DCAD7CE415CFB989006A8744 /* LiveMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCAD7CE215CFB989006A8744 /* LiveMap.xcdatamodeld */; };
+		DCAD7CE715CFB989006A8744 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD7CE615CFB989006A8744 /* MasterViewController.m */; };
+		DCAD7CEA15CFB989006A8744 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD7CE915CFB989006A8744 /* DetailViewController.m */; };
+		DCAD7CF215CFB989006A8744 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAD7CF115CFB989006A8744 /* SenTestingKit.framework */; };
+		DCAD7CF315CFB989006A8744 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAD7CC815CFB988006A8744 /* UIKit.framework */; };
+		DCAD7CF415CFB989006A8744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAD7CCA15CFB988006A8744 /* Foundation.framework */; };
+		DCAD7CF515CFB989006A8744 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAD7CCE15CFB988006A8744 /* CoreData.framework */; };
+		DCAD7CFD15CFB989006A8744 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCAD7CFB15CFB989006A8744 /* InfoPlist.strings */; };
+		DCAD7D0015CFB989006A8744 /* LiveMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAD7CFF15CFB989006A8744 /* LiveMapTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAD7CF615CFB989006A8744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAD7CBB15CFB988006A8744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAD7CC315CFB988006A8744;
+			remoteInfo = LiveMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCAD7CC415CFB988006A8744 /* LiveMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAD7CC815CFB988006A8744 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCAD7CCA15CFB988006A8744 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCAD7CCC15CFB988006A8744 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCAD7CCE15CFB988006A8744 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DCAD7CD215CFB988006A8744 /* LiveMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiveMap-Info.plist"; sourceTree = "<group>"; };
+		DCAD7CD415CFB988006A8744 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCAD7CD615CFB988006A8744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCAD7CD815CFB989006A8744 /* LiveMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveMap-Prefix.pch"; sourceTree = "<group>"; };
+		DCAD7CD915CFB989006A8744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCAD7CDA15CFB989006A8744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCAD7CDD15CFB989006A8744 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		DCAD7CE015CFB989006A8744 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		DCAD7CE315CFB989006A8744 /* LiveMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveMap.xcdatamodel; sourceTree = "<group>"; };
+		DCAD7CE515CFB989006A8744 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DCAD7CE615CFB989006A8744 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DCAD7CE815CFB989006A8744 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DCAD7CE915CFB989006A8744 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DCAD7CF015CFB989006A8744 /* LiveMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAD7CF115CFB989006A8744 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DCAD7CFA15CFB989006A8744 /* LiveMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiveMapTests-Info.plist"; sourceTree = "<group>"; };
+		DCAD7CFC15CFB989006A8744 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCAD7CFE15CFB989006A8744 /* LiveMapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveMapTests.h; sourceTree = "<group>"; };
+		DCAD7CFF15CFB989006A8744 /* LiveMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveMapTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAD7CC115CFB988006A8744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAD7CC915CFB988006A8744 /* UIKit.framework in Frameworks */,
+				DCAD7CCB15CFB988006A8744 /* Foundation.framework in Frameworks */,
+				DCAD7CCD15CFB988006A8744 /* CoreGraphics.framework in Frameworks */,
+				DCAD7CCF15CFB988006A8744 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAD7CEC15CFB989006A8744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAD7CF215CFB989006A8744 /* SenTestingKit.framework in Frameworks */,
+				DCAD7CF315CFB989006A8744 /* UIKit.framework in Frameworks */,
+				DCAD7CF415CFB989006A8744 /* Foundation.framework in Frameworks */,
+				DCAD7CF515CFB989006A8744 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAD7CB915CFB988006A8744 = {
+			isa = PBXGroup;
+			children = (
+				DCAD7CD015CFB988006A8744 /* LiveMap */,
+				DCAD7CF815CFB989006A8744 /* LiveMapTests */,
+				DCAD7CC715CFB988006A8744 /* Frameworks */,
+				DCAD7CC515CFB988006A8744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAD7CC515CFB988006A8744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD7CC415CFB988006A8744 /* LiveMap.app */,
+				DCAD7CF015CFB989006A8744 /* LiveMapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAD7CC715CFB988006A8744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD7CC815CFB988006A8744 /* UIKit.framework */,
+				DCAD7CCA15CFB988006A8744 /* Foundation.framework */,
+				DCAD7CCC15CFB988006A8744 /* CoreGraphics.framework */,
+				DCAD7CCE15CFB988006A8744 /* CoreData.framework */,
+				DCAD7CF115CFB989006A8744 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCAD7CD015CFB988006A8744 /* LiveMap */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD7CD915CFB989006A8744 /* AppDelegate.h */,
+				DCAD7CDA15CFB989006A8744 /* AppDelegate.m */,
+				DCAD7CDC15CFB989006A8744 /* MainStoryboard_iPhone.storyboard */,
+				DCAD7CDF15CFB989006A8744 /* MainStoryboard_iPad.storyboard */,
+				DCAD7CE515CFB989006A8744 /* MasterViewController.h */,
+				DCAD7CE615CFB989006A8744 /* MasterViewController.m */,
+				DCAD7CE815CFB989006A8744 /* DetailViewController.h */,
+				DCAD7CE915CFB989006A8744 /* DetailViewController.m */,
+				DCAD7CE215CFB989006A8744 /* LiveMap.xcdatamodeld */,
+				DCAD7CD115CFB988006A8744 /* Supporting Files */,
+			);
+			path = LiveMap;
+			sourceTree = "<group>";
+		};
+		DCAD7CD115CFB988006A8744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD7CD215CFB988006A8744 /* LiveMap-Info.plist */,
+				DCAD7CD315CFB988006A8744 /* InfoPlist.strings */,
+				DCAD7CD615CFB988006A8744 /* main.m */,
+				DCAD7CD815CFB989006A8744 /* LiveMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCAD7CF815CFB989006A8744 /* LiveMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD7CFE15CFB989006A8744 /* LiveMapTests.h */,
+				DCAD7CFF15CFB989006A8744 /* LiveMapTests.m */,
+				DCAD7CF915CFB989006A8744 /* Supporting Files */,
+			);
+			path = LiveMapTests;
+			sourceTree = "<group>";
+		};
+		DCAD7CF915CFB989006A8744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCAD7CFA15CFB989006A8744 /* LiveMapTests-Info.plist */,
+				DCAD7CFB15CFB989006A8744 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAD7CC315CFB988006A8744 /* LiveMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAD7D0315CFB989006A8744 /* Build configuration list for PBXNativeTarget "LiveMap" */;
+			buildPhases = (
+				DCAD7CC015CFB988006A8744 /* Sources */,
+				DCAD7CC115CFB988006A8744 /* Frameworks */,
+				DCAD7CC215CFB988006A8744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveMap;
+			productName = LiveMap;
+			productReference = DCAD7CC415CFB988006A8744 /* LiveMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAD7CEF15CFB989006A8744 /* LiveMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAD7D0615CFB989006A8744 /* Build configuration list for PBXNativeTarget "LiveMapTests" */;
+			buildPhases = (
+				DCAD7CEB15CFB989006A8744 /* Sources */,
+				DCAD7CEC15CFB989006A8744 /* Frameworks */,
+				DCAD7CED15CFB989006A8744 /* Resources */,
+				DCAD7CEE15CFB989006A8744 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAD7CF715CFB989006A8744 /* PBXTargetDependency */,
+			);
+			name = LiveMapTests;
+			productName = LiveMapTests;
+			productReference = DCAD7CF015CFB989006A8744 /* LiveMapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAD7CBB15CFB988006A8744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Eric Hsu (RD-TW)";
+			};
+			buildConfigurationList = DCAD7CBE15CFB988006A8744 /* Build configuration list for PBXProject "LiveMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCAD7CB915CFB988006A8744;
+			productRefGroup = DCAD7CC515CFB988006A8744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAD7CC315CFB988006A8744 /* LiveMap */,
+				DCAD7CEF15CFB989006A8744 /* LiveMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAD7CC215CFB988006A8744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAD7CD515CFB988006A8744 /* InfoPlist.strings in Resources */,
+				DCAD7CDE15CFB989006A8744 /* MainStoryboard_iPhone.storyboard in Resources */,
+				DCAD7CE115CFB989006A8744 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAD7CED15CFB989006A8744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAD7CFD15CFB989006A8744 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DCAD7CEE15CFB989006A8744 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAD7CC015CFB988006A8744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAD7CD715CFB988006A8744 /* main.m in Sources */,
+				DCAD7CDB15CFB989006A8744 /* AppDelegate.m in Sources */,
+				DCAD7CE415CFB989006A8744 /* LiveMap.xcdatamodeld in Sources */,
+				DCAD7CE715CFB989006A8744 /* MasterViewController.m in Sources */,
+				DCAD7CEA15CFB989006A8744 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAD7CEB15CFB989006A8744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAD7D0015CFB989006A8744 /* LiveMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAD7CF715CFB989006A8744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAD7CC315CFB988006A8744 /* LiveMap */;
+			targetProxy = DCAD7CF615CFB989006A8744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAD7CD315CFB988006A8744 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAD7CD415CFB988006A8744 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCAD7CDC15CFB989006A8744 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAD7CDD15CFB989006A8744 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAD7CDF15CFB989006A8744 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAD7CE015CFB989006A8744 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DCAD7CFB15CFB989006A8744 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAD7CFC15CFB989006A8744 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAD7D0115CFB989006A8744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCAD7D0215CFB989006A8744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCAD7D0415CFB989006A8744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveMap/LiveMap-Prefix.pch";
+				INFOPLIST_FILE = "LiveMap/LiveMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCAD7D0515CFB989006A8744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveMap/LiveMap-Prefix.pch";
+				INFOPLIST_FILE = "LiveMap/LiveMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DCAD7D0715CFB989006A8744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LiveMap.app/LiveMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveMap/LiveMap-Prefix.pch";
+				INFOPLIST_FILE = "LiveMapTests/LiveMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DCAD7D0815CFB989006A8744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LiveMap.app/LiveMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LiveMap/LiveMap-Prefix.pch";
+				INFOPLIST_FILE = "LiveMapTests/LiveMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAD7CBE15CFB988006A8744 /* Build configuration list for PBXProject "LiveMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAD7D0115CFB989006A8744 /* Debug */,
+				DCAD7D0215CFB989006A8744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAD7D0315CFB989006A8744 /* Build configuration list for PBXNativeTarget "LiveMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAD7D0415CFB989006A8744 /* Debug */,
+				DCAD7D0515CFB989006A8744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCAD7D0615CFB989006A8744 /* Build configuration list for PBXNativeTarget "LiveMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAD7D0715CFB989006A8744 /* Debug */,
+				DCAD7D0815CFB989006A8744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCAD7CE215CFB989006A8744 /* LiveMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCAD7CE315CFB989006A8744 /* LiveMap.xcdatamodel */,
+			);
+			currentVersion = DCAD7CE315CFB989006A8744 /* LiveMap.xcdatamodel */;
+			path = LiveMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCAD7CBB15CFB988006A8744 /* Project object */;
+}
